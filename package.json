@@ -1,0 +1,39 @@
+{
+  "name": "react-css-module-starter",
+  "version": "1.0.0",
+  "description": "Demo app showcasing how to use nextgen components",
+  "main": "index.js",
+  "repository": "git@github.com:rencire/react-css-module-starter",
+  "author": "Eric Ren <rene@ren.email>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --watch",
+    "start": "webpack-dev-server",
+    "build": "NODE_ENV=production webpack --config webpack.config.prod.js --progress"
+  },
+  "dependencies": {
+    "babel-plugin-react-css-modules": "^3.2.1",
+    "babel-polyfill": "^6.26.0",
+    "normalize.css": "^7.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.6",
+    "react-hot-loader": "next",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1",
+    "yargs": "^8.0.2"
+  }
+}
