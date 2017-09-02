@@ -1,7 +1,7 @@
 {
   "name": "react-css-module-starter",
   "version": "1.0.0",
-  "description": "Demo app showcasing how to use nextgen components",
+  "description": "minimal react starter project with good dev ux",
   "main": "index.js",
   "repository": "git@github.com:rencire/react-css-module-starter",
   "author": "Eric Ren <rene@ren.email>",
