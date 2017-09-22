@@ -4,3 +4,7 @@ Purpose of this project is to learn how to setup a simple ES6+ web project with 
 
 Sure we can eject a `create-react-app` project, but the configuration might be too daunting.
 
+
+# TODO
+- add Typescript support?
+- rambda.js?
